@@ -1,5 +1,6 @@
 # Word Game
-This is my first react application where I made a word game. 
+This is my first react application where I made a word game.
+[Try Word Game](https://gallant-rosalind-ed0338.netlify.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
