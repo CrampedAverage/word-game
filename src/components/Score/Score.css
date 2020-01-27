@@ -1,0 +1,32 @@
+.all {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.score-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 262.5px;
+    height: 52.5px;
+    background-color: rgb(170, 163, 179);
+    color: black;
+    font-size: 1.75rem;
+}
+
+.word {
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.75rem;
+}
+
+.time {
+    padding-left: 20px;
+
+} 
+

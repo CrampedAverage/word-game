@@ -1,0 +1,55 @@
+.welcome-speech {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 420px;
+    margin: auto;
+    font-size: 1.75rem;
+}
+
+.game-name {
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    font-size: 3.5rem;
+    width: fit-content;
+}
+
+.select {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    padding: 10px;
+
+}
+
+.diff-buttons {
+    font-size: 1.925rem;
+    margin: 10px;
+}
+
+.diff-buttons:hover, .diff-buttons:focus {
+    color: rgba(245, 245, 245, 0.918);
+    background-color: black; 
+    outline: none;
+    border: 1.75px whitesmoke solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.difficulty {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+    width: 262.5px;
+    font-size: 1.75rem;
+}
