@@ -12,13 +12,17 @@ const Game = props => {
             colour = undefined
         },50)
     }
+    
+    const renderLetter = () => {
+        return props.wordLetters.map((letter, i) => {
+            return <div key={i} onClick={props.getLetter.bind(this)} className='square' value={letter} style={{backgroundColor: colour}}>{letter}</div>
+        })
+    }
+    
     if (props.word) {
         return (
-        <div className='game' onClick={props.getLetter}>
-            <div lett="1" className='square' value={props.wordOne} onClick={props.try} style={{backgroundColor: colour}}>{props.wordOne}</div>
-            <div lett="2" className='square' value={props.wordTwo} onClick={props.try} style={{backgroundColor: colour}}>{props.wordTwo}</div>
-            <div lett="3" className='square' value={props.wordThree} onClick={props.try} style={{backgroundColor: colour}}>{props.wordThree}</div>
-            <div lett="4" className='square' value={props.wordFour} onClick={props.try} style={{backgroundColor: colour}}>{props.wordFour}</div>
+        <div className='game' >
+            {renderLetter()}
         </div>
         )
     } else if (props.gameOver=== true) {
