@@ -1,4 +1,4 @@
-import React, { BrowserRouter as Router } from 'react';
+import React from 'react';
 import './App.css';
 import wordObject from '../../word'
 
@@ -16,10 +16,7 @@ class App extends React.Component {
     difficulty: undefined,
     time: undefined,
     word: undefined,
-    wordOne: undefined,
-    wordTwo: undefined,
-    wordThree: undefined,
-    wordFour: undefined,
+    wordLetters: [],
     gameOver: false,
     mainMenu: true
   }
@@ -58,7 +55,6 @@ class App extends React.Component {
   // This is an onclick function which gets invoked whenever the user clicks on a letter
   getValue = e => {
     const letter = e.target.getAttribute('value')
-    
     // This checks if the letter hasnt been selected yet
     // If it hasnt been selected then the colour will change to yellow and then mutate the letterArray
     if (e.target.style.backgroundColor === '' && e.target.getAttribute('class') !== 'game') {
@@ -89,16 +85,13 @@ class App extends React.Component {
   changeWord = () => {
     const randomWord = wordObject[Math.round(Math.random() * (wordObject.length - 1))]
     // This makes sure words are not repeated right after another
-
     if (randomWord.word === this.state.word) {
       this.changeWord()
     }
+    const wordArray = randomWord['wordLetters']
     this.setState({
       word: randomWord['word'],
-      wordOne: randomWord['wordOne'],
-      wordTwo: randomWord['wordTwo'],
-      wordThree: randomWord['wordThree'],
-      wordFour: randomWord['wordFour']
+      wordLetters: [wordArray[0], wordArray[1], wordArray[2], wordArray[3]]
     })
   }
 
@@ -157,10 +150,7 @@ class App extends React.Component {
       start: false,
       time: undefined,
       word: undefined,
-      wordOne: undefined,
-      wordTwo: undefined,
-      wordThree: undefined,
-      wordFour: undefined,
+      wordLetters: [],
       gameOver: true
     })
   }
@@ -174,10 +164,7 @@ class App extends React.Component {
       start: false,
       time: undefined,
       word: undefined,
-      wordOne: undefined,
-      wordTwo: undefined,
-      wordThree: undefined,
-      wordFour: undefined,
+      wordLetters: [],
       gameOver: false,
       mainMenu: true
     })
@@ -238,10 +225,7 @@ class App extends React.Component {
           wordList={this.state.letterArray}
           getLetter= {this.getValue}
           word={this.state.word}
-          wordOne={this.state.wordOne}
-          wordTwo={this.state.wordTwo}
-          wordThree={this.state.wordThree}
-          wordFour={this.state.wordFour}
+          wordLetters={this.state.wordLetters}
           gameOver={this.state.gameOver}
           score={this.state.score}
           />
