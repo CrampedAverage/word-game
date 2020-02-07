@@ -1,353 +1,232 @@
 export const wordObject = [
     {
         word: 'AQUA',
-        wordOne: 'U',
-        wordTwo: 'A',
-        wordThree: 'Q',
-        wordFour: 'A'
+        wordLetters: ['U','A','Q','A'] 
     },
     {
         word: 'HACK',
-        wordOne: 'H',
-        wordTwo: 'K',
-        wordThree: 'C',
-        wordFour: 'A'
+        wordLetters: ['H','K','C','A'] 
     },
     {
         word: 'QUAD',
-        wordOne: 'Q',
-        wordTwo: 'A',
-        wordThree: 'U',
-        wordFour: 'D'
+        wordLetters: ['Q','A','U','D'] 
     },
     {
         word: 'QUID',
-        wordOne: 'Q',
-        wordTwo: 'U',
-        wordThree: 'D',
-        wordFour: 'I'
+        wordLetters: ['Q','U','D','I'] 
     },
     {
         word: 'HUFF',
-        wordOne: 'F',
-        wordTwo: 'F',
-        wordThree: 'U',
-        wordFour: 'H'
+        wordLetters: ['F','F','U','H'] 
     },
     {
         word: 'MAXI',
-        wordOne: 'A',
-        wordTwo: 'M',
-        wordThree: 'I',
-        wordFour: 'X'
+        wordLetters: ['A','M','I','X'] 
     },    
     {
         word: 'HATE',
-        wordOne: 'H',
-        wordTwo: 'T',
-        wordThree: 'E',
-        wordFour: 'A'
+        wordLetters: ['H','T','E','A'] 
     },    
     {
         word: 'SIZE',
-        wordOne: 'Z',
-        wordTwo: 'S',
-        wordThree: 'E',
-        wordFour: 'I',
+        wordLetters: ['Z','S','E','I',] 
     },    
     {
         word: 'ZERO',
-        wordOne: 'O',
-        wordTwo: 'E',
-        wordThree: 'R',
-        wordFour: 'Z'
+        wordLetters: ['O','E','R','Z'] 
     },    
     {
         word: 'BUCK',
-        wordOne: 'B',
-        wordTwo: 'C',
-        wordThree: 'K',
-        wordFour: 'U'
+        wordLetters: ['B','C','K','U'] 
     },    
     {
         word: 'LOVE',
-        wordOne: 'L',
-        wordTwo: 'O',
-        wordThree: 'E',
-        wordFour: 'V'
+        wordLetters: ['L','O','E','V'] 
+
     },    
     {
         word: 'COOK',
-        wordOne: 'O',
-        wordTwo: 'O',
-        wordThree: 'K',
-        wordFour: 'C'
+        wordLetters: ['O','O','K','C'] 
     },   
     {
         word: 'JAVA',
-        wordOne: 'A',
-        wordTwo: 'J',
-        wordThree: 'V',
-        wordFour: 'A'
+        wordLetters: ['A','J','V','A'] 
     },    
     {
         word: 'MONK',
-        wordOne: 'M',
-        wordTwo: 'K',
-        wordThree: 'N',
-        wordFour: 'O'
+        wordLetters: ['M','K','N','O'] 
     },    
     {
         word: 'PACK',
-        wordOne: 'P',
-        wordTwo: 'A',
-        wordThree: 'K',
-        wordFour: 'C'
+        wordLetters: ['P','A','K','C'] 
     },    
     {
         word: 'STAR',
-        wordOne: 'S',
-        wordTwo: 'A',
-        wordThree: 'T',
-        wordFour: 'R'
+        wordLetters: ['S','A','T','R'] 
     },    
     {
         word: 'PUFF',
-        wordOne: 'F',
-        wordTwo: 'P',
-        wordThree: 'U',
-        wordFour: 'F'
+        wordLetters: ['F','P','U','F'] 
     },    
     {
         word: 'PUCK',
-        wordOne: 'K',
-        wordTwo: 'C',
-        wordThree: 'P',
-        wordFour: 'U'
+        wordLetters: ['K','C','P','U'] 
     },    
     {
         word: 'JAWS',
-        wordOne: 'J',
-        wordTwo: 'W',
-        wordThree: 'S',
-        wordFour: 'A'
+        wordLetters: ['J','W','S','A'] 
     },    
     {
         word: 'GEEZ',
-        wordOne: 'E',
-        wordTwo: 'E',
-        wordThree: 'G',
-        wordFour: 'Z'
+        wordLetters: ['E','E','G','Z'] 
     },    
     {
         word: 'GAZE',
-        wordOne: 'G',
-        wordTwo: 'A',
-        wordThree: 'Z',
-        wordFour: 'E'
+        wordLetters: ['G','A','Z','E'] 
     },    
     {
         word: 'DOSE',
-        wordOne: 'S',
-        wordTwo: 'D',
-        wordThree: 'E',
-        wordFour: 'O'
+        wordLetters: ['S','D','E','O'] 
     },    
     {
         word: 'ZONE',
-        wordOne: 'Z',
-        wordTwo: 'N',
-        wordThree: 'E',
-        wordFour: 'O'
+        wordLetters: ['Z','N','E','O'] 
     },    
     {
         word: 'CAKE',
-        wordOne: 'E',
-        wordTwo: 'C',
-        wordThree: 'A',
-        wordFour: 'K'
+        wordLetters: ['E','C','A','K'] 
     },    
     {
         word: 'HAVE',
-        wordOne: 'A',
-        wordTwo: 'H',
-        wordThree: 'E',
-        wordFour: 'V'
-    },    
+        wordLetters: ['A','H','E','V']
+    },   
     {
         word: 'KERB',
-        wordOne: 'K',
-        wordTwo: 'B',
-        wordThree:'R',
-        wordFour: 'E'
+        wordLetters: ['K','B','R','E']
     },    
     {
         word: 'KEPT',
-        wordOne: 'T',
-        wordTwo: 'E',
-        wordThree: 'P',
-        wordFour: 'K'
+        wordLetters: ['T','E','P','K']
     },    
     {
         word: 'PEAK',
-        wordOne: 'P',
-        wordTwo: 'A',
-        wordThree: 'K',
-        wordFour: 'E'
+        wordLetters: ['P','A','K','E']
     },    
     {
         word: 'PUMP',
-        wordOne: 'M',
-        wordTwo: 'P',
-        wordThree: 'P',
-        wordFour: 'U'
+        wordLetters: ['M','P','P','U'] 
     },    
     {
         word: 'RACK',
-        wordOne: 'C',
-        wordTwo: 'R',
-        wordThree: 'K',
-        wordFour: 'A'
+        wordLetters: ['C','R','K','A'] 
     },    
     {
         word: 'SHOW',
-        wordOne: 'O',
-        wordTwo: 'S',
-        wordThree: 'H',
-        wordFour: 'W'
+        wordLetters: ['O','S','H','W'] 
     },    
     {
         word: 'PINK',
-        wordOne: 'K',
-        wordTwo: 'I',
-        wordThree: 'P',
-        wordFour: 'N'
+        wordLetters: ['K','I','P','N'] 
     },    
     {
         word: 'PIKE',
-        wordOne: 'P',
-        wordTwo: 'K',
-        wordThree: 'I',
-        wordFour: 'E'
+        wordLetters: ['P','K','I','E'] 
     },    
     {
         word: 'PUKE',
-        wordOne: 'P',
-        wordTwo: 'E',
-        wordThree: 'K',
-        wordFour: 'U'
+        wordLetters: ['P','E','K','U'] 
     },    
     {
         word: 'KEEP',
-        wordOne: 'E',
-        wordTwo: 'E',
-        wordThree: 'P',
-        wordFour: 'K'
+        wordLetters: ['E','E','P','K']  
     },    
     {
         word: 'ROCK',
-        wordOne: 'K',
-        wordTwo: 'C',
-        wordThree: 'R',
-        wordFour: 'O'
+        wordLetters: ['K','C','R','O'] 
     },    
     {
         word: 'SOCK',
-        wordOne: 'O',
-        wordTwo: 'C',
-        wordThree: 'K',
-        wordFour: 'S'
+        wordLetters: ['O','C','K','S'] 
     },    
     {
         word: 'SKIP',
-        wordOne: 'P',
-        wordTwo: 'K',
-        wordThree: 'S',
-        wordFour: 'I'
+        wordLetters: ['P','K','S','I'] 
     },
     {
         word: 'POOK',
-        wordOne: 'O',
-        wordTwo: 'O',
-        wordThree: 'K',
-        wordFour: 'P'
+        wordLetters: ['O','O','K','P'] 
     },    
     {
         word: 'VIEW',
-        wordOne: 'E',
-        wordTwo: 'I',
-        wordThree: 'V',
-        wordFour: 'W'
+        wordLetters: ['E','I','V','W'] 
     },    
     {
         word: 'WAVE',
-        wordOne: 'E',
-        wordTwo: 'A',
-        wordThree: 'W',
-        wordFour: 'V'
+        wordLetters: ['E','A','W','V'] 
     },    
     {
         word: 'VIVO',
-        wordOne: 'V',
-        wordTwo: 'V',
-        wordThree: 'I',
-        wordFour: 'O'
+        wordLetters: ['V','V','I','O'] 
     },    
     {
         word: 'WASH',
-        wordOne: 'S',
-        wordTwo: 'W',
-        wordThree: 'H',
-        wordFour: 'A'
+        wordLetters: ['S','W','H','A'] 
     },    
     {
         word: 'WHEN',
-        wordOne: 'W',
-        wordTwo: 'E',
-        wordThree: 'N',
-        wordFour: 'H'
+        wordLetters: ['W','E','N','H'] 
     },    
     {
         word: 'JARS',
-        wordOne: 'A',
-        wordTwo: 'R',
-        wordThree: 'J',
-        wordFour: 'S'
+        wordLetters: ['A','R','J','S']
     }, 
     {
         word: 'YOLK',
-        wordOne: 'O',
-        wordTwo: 'L',
-        wordThree: 'K',
-        wordFour: 'Y'
+        wordLetters: ['O','L','K','Y'] 
     },    
     {
         word: 'COKE',
-        wordOne: 'O',
-        wordTwo: 'E',
-        wordThree: 'C',
-        wordFour: 'K'
+        wordLetters: ['O','E','C','K'] 
     },    
     {
         word: 'HOLY',
-        wordOne: 'O',
-        wordTwo: 'Y',
-        wordThree: 'H',
-        wordFour: 'L'
+        wordLetters: ['O','Y','H','L'] 
     },    
     {
         word: 'KNOB',
-        wordOne: 'K',
-        wordTwo: 'B',
-        wordThree: 'O',
-        wordFour: 'N'
+        wordLetters: ['K','B','O','N'] 
     },    
     {
         word: 'COWS',
-        wordOne: 'W',
-        wordTwo: 'S',
-        wordThree: 'C',
-        wordFour: 'O'
+        wordLetters: ['W','S','C','O'] 
+    },
+    {
+        word: 'YOUR',
+        wordLetters: ['O', 'Y', 'R', 'U']
+    },
+    {
+        word: 'WHAT',
+        wordLetters: ['H', 'A', 'W', 'T']
+    },    
+    {
+        word: 'INTO',
+        wordLetters: ['O', 'T', 'N', 'I']
+    },
+    {
+        word: 'WERE',
+        wordLetters: ['W', 'R', 'E', 'E']
+    },
+    {
+        word: 'FROM',
+        wordLetters: ['O', 'R', 'F', 'M']
+    },
+    {
+        word: 'MINE',
+        wordLetters: ['I', 'E', 'N', 'M']
+    },
+    {
+        word: 'MOST',
+        wordLetters: ['M', 'T', 'S', 'O']
     }
 ]
 
